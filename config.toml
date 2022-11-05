@@ -1,0 +1,32 @@
+baseURL = 'http://brisk-it.net/'
+languageCode = 'en-us'
+title = 'Brisk-IT'
+theme = "m10c"
+[params]
+  author = "Maarten Van Driessen"
+  description = "Maarten Van Driessen is a freelance infrastructure consultant. Read more on the about page!"
+  menu_item_separator = " - "
+  #avatar = "/static/avatar.jpg"
+    [[params.social]]
+    icon = "github"
+    name = "My Github"
+    url = "https://github.com/mvandriessen"
+    [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/mvandriessen"
+    [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/maarten-van-driessen-87608021/"
+
+    [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    [params.style]
+    darkestColor = "#242930"
+    darkColor = "#353b43"
+    lightColor = "#ffffff"
+    lightestColor = "#ffffff"
+    primaryColor = "#4b7cc9"
