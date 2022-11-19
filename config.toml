@@ -30,3 +30,6 @@ theme = "m10c"
     lightColor = "#ffffff"
     lightestColor = "#ffffff"
     primaryColor = "#4b7cc9"
+[module]
+    [[module.imports]]
+        path = "github.com/divinerites/plausible-hugo"
