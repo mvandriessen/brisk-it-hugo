@@ -30,6 +30,11 @@ theme = "m10c"
     lightColor = "#ffffff"
     lightestColor = "#ffffff"
     primaryColor = "#4b7cc9"
+
+    [params.plausible]
+      enable = true
+      domain = "brisk-it.net"
+
 [module]
-    [[module.imports]]
-        path = "github.com/divinerites/plausible-hugo"
+  [[module.imports]]
+  path = "github.com/divinerites/plausible-hugo"
