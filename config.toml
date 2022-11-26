@@ -2,6 +2,7 @@ baseURL = 'http://brisk-it.net/'
 languageCode = 'en-us'
 title = 'Brisk-IT'
 theme = "m10c"
+
 [params]
   author = "Maarten Van Driessen"
   description = "Maarten Van Driessen is a freelance infrastructure consultant. Read more on the about page!"
