@@ -1,7 +1,7 @@
 baseURL = 'http://brisk-it.net/'
 languageCode = 'en-us'
 title = 'Brisk-IT'
-theme = ["m10c", "plausible-hugo"]
+theme = "m10c"
 
 [params]
   author = "Maarten Van Driessen"
@@ -35,3 +35,14 @@ theme = ["m10c", "plausible-hugo"]
     [params.plausible]
       enable = true
       domain = "brisk-it.net"
+[module]
+   [[module.imports]]
+   path = "github.com/divinerites/plausible-hugo"
+
+[plausible]
+enable = true
+domain = "brisk-it.net"
+outbound_link = true
+file_downloads = true
+debug = false
+gitstar = false
