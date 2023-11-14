@@ -2,6 +2,8 @@ baseURL = 'http://brisk-it.net/'
 languageCode = 'en-us'
 title = 'Brisk-IT'
 theme = "PaperMod"
+paginate = 5
+publishDir = "content"
 
 [params]
   author = "Maarten Van Driessen"
@@ -41,7 +43,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   comments = false
 
-  [[homeInfoParams]]
+  [[params.homeInfoParams]]
     Title = "Hello There"
     Content = "Welcome to my blog!"
 
