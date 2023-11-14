@@ -35,6 +35,15 @@ theme = "PaperMod"
     [params.plausible]
       enable = true
       domain = "brisk-it.net"
+  ShowReadingTime = true
+  ShowShareButtongs = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  comments = false
+
+  [[homeInfoParams]]
+    Title = "Hello There"
+    Content = "Welcome to my blog!"
 
 [plausible]
 enable = true
