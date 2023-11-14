@@ -88,6 +88,7 @@ params:
     mainSections:
       - content
       - posts
+      - papermod
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
