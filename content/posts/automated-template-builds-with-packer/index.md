@@ -4,16 +4,13 @@ author: Maarten Van Driessen
 type: post
 date: 2022-09-14T08:25:33+00:00
 url: /automated-template-builds-with-packer/
+aliases: ["/automated-template-builds-with-packer"]
 featured_image: /wp-content/uploads/2022/09/1551894888-packer-blue.jpg
 summary: "This post outlines how you can build Server templates with Packer"
 categories:
   - Hashicorp
   - Packer
-tags:
-  - azure devops
-  - hashicorp
-  - packer
-  - templates
+tags: ["azure devops" ,"hashicorp","packertemplates"]
 resources:
 - alt: env vars
   src: images/environmentvars.png
