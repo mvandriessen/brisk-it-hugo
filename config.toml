@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Brisk-IT'
 theme = "PaperMod"
 paginate = 5
-publishDir = "content"
 
 [params]
   author = "Maarten Van Driessen"
