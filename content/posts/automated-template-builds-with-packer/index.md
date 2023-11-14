@@ -17,6 +17,7 @@ tags:
 resources:
 - alt: env vars
   src: images/environmentvars.png
+weight: 1
 
 ---
 Over the past few months, I've worked a lot with Packer in my day job. It's been quite a journey moving all the server templates used by my clients over to Packer. I've also been rebuilding my lab for a few weeks now, the Packer templates and associated Azure Devops pipeline was one of the first things I set up.
