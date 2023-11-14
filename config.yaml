@@ -85,6 +85,9 @@ params:
           url: "https://github.com/mvandriessen"
         - name: Rss
           url: "index.xml"
+    mainSections:
+      - content
+      - posts
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
